@@ -1,171 +1,198 @@
 html {
-    background-color: black;
-  }
-  
-  body {
-    margin: auto;
-    padding: 0;
-    font-family: "Roboto";
-    width: 100%;
-    max-width: 960px;
-    background-color: white;
-  }
-  
-  .hero,
-  .footer {
-    background-color: #1f2937;
-    color: #f9faf8;
-    display: inline-flex;
-    flex-direction: column;
-    flex: 1;
-    width: 100%;
-    padding: 0px 0px 20px 0px;
-  }
-  
-  .menu {
-    display: inline-flex;
-    flex-direction: row;
-    flex: 1;
-    padding: 3px;
-    margin-bottom: 10px;
-  }
-  
-  .menuP {
-    margin: 5px 10px;
-    text-decoration: none;
-    color: white;
-  }
-  
-  .bold {
-    font-weight: bold;
-    flex: 2;
-    font-size: 24px;
-  }
-  
-  .container {
-    display: inline-flex;
-    flex-direction: row;
-    flex: 1;
-    margin: auto;
-    padding: auto;
-    width: 900px;
-  }
-  
-  .awesome {
-    display: inline-flex;
-    flex-direction: column;
-    flex: 1;
-  }
-  
-  .awesomeButton {
-    border: blue;
-    border-radius: 30px;
-    flex: 0;
-    width: 120px;
-    margin-left: 0;
-    padding: 5 10;
-    font-weight: bold;
-    color: white;
-  }
-  
-  .awesomeImg {
-    display: inline-flex;
-    flex: 1;
-    justify-items: center;
-    background-color: lightslategray;
-    max-height: 150px;
-    max-width: 350px;
-  }
-  
-  .main {
-    font-weight: 900px;
-    font-size: 48px;
-  }
-  
-  .secondary {
-    font-size: 18px;
-  }
-  
-  .quote {
-    background-color: #e5e7eb;
-    font-size: 36px;
-    padding: 2em 7em;
-  }
-  
-  .quoteP {
-    width: 100%;
-    margin: auto;
-    font-weight: lighter;
-    font-style: italic;
-    color: #1f2937;
-    padding: 0;
-    margin: 0;
-    text-align: justify;
-  }
-  
-  .quoteAuthor {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    text-align: right;
-    margin: 0;
-  }
-  
-  button,
-  .callToAction {
-    background-color: #3882f6;
-  }
-  
-  p {
-    margin: 10;
-    padding: 0;
-  }
-  
-  .someInformations {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    justify-items: center;
-  }
-  
-  .informations {
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 80%;
-    margin-left: 10%;
-  }
-  
-  .information {
-    display: inline-flex;
-    flex-direction: column;
-    width: 20%;
-    text-align: center;
-    font-size: 12px;
-  }
-  
-  .randomInformation {
-    border: 5px solid blue;
-    border-radius: 15px;
-    width: 100%;
-    padding-top: 100%;
-  }
-  
-  .callToAction {
-    width: 75%;
-    margin: 3em auto;
-    color: white;
-    font-size: 12px;
-    border-radius: 5px;
-  }
-  
-  .boldCTA {
-    font-weight: bold;
-    margin: 5px;
-  }
-  /* regler l'histoire de margin/padding */
-  
-  .cta {
-    margin: 0;
-  }
-  
+  background-color: black;
+}
+
+body {
+  margin: auto;
+  padding: 0;
+  font-family: "Roboto";
+  width: 100%;
+  /*max-width: 960px;*/
+  background-color: white;
+}
+
+.hero,
+.footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  display: inline-flex;
+  flex-direction: column;
+  flex: 1;
+  width: 100%;
+  padding: 20px 0px;
+}
+
+.footer {
+  text-align: center;
+}
+
+.menu {
+  display: inline-flex;
+  flex-direction: row;
+  flex: 1;
+  padding: 3px;
+  margin-bottom: 10px;
+}
+
+.menuP {
+  margin: 5px 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.bold {
+  font-weight: bold;
+  flex: 2;
+  font-size: 24px;
+}
+
+.container {
+  display: inline-flex;
+  flex-direction: row;
+  flex: 1;
+  margin: auto;
+  padding: auto;
+  width: 900px;
+}
+
+.awesome {
+  display: inline-flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 3em;
+}
+
+.awesomeButton {
+  border: blue;
+  border-radius: 30px;
+  flex: 0;
+  width: 120px;
+  margin-left: 0;
+  padding: 5 10;
+  font-weight: bold;
+  color: white;
+}
+
+.awesomeImg {
+  display: inline-flex;
+  flex: 1;
+  justify-items: center;
+  background-color: lightslategray;
+  max-height: 150px;
+  max-width: 350px;
+  padding: 3em;
+  margin: 3em;
+}
+
+.main {
+  font-weight: 900px;
+  font-size: 48px;
+}
+
+.secondary {
+  font-size: 18px;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  font-size: 36px;
+  padding: 2em 7em;
+}
+
+.quoteP {
+  width: 100%;
+  margin: auto;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1f2937;
+  padding: 0;
+  margin: 0;
+  text-align: justify;
+}
+
+.quoteAuthor {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: right;
+  margin: 0;
+}
+
+button,
+.callToAction {
+  background-color: #3882f6;
+}
+
+p {
+  margin: 10;
+  padding: 0;
+}
+
+.someInformations {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  justify-items: center;
+}
+
+.informations {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.information {
+  display: inline-flex;
+  flex-direction: column;
+  width: 15%;
+  text-align: center;
+  font-size: 12px;
+}
+
+.randomInformation {
+  border: 5px solid blue;
+  border-radius: 15px;
+  width: 100%;
+  padding-top: 100%;
+}
+
+.callToAction {
+  width: 50%;
+  margin: 3em auto;
+  color: white;
+  font-size: 12px;
+  border-radius: 5px;
+  padding: 3em 5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.boldCTA {
+  font-weight: bold;
+  flex: 1;
+  margin: 0;
+  font-size: 14px;
+}
+/* regler l'histoire de margin/padding */
+
+.cta {
+  margin: 0;
+}
+
+.contCTA {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+}
+
+.ctaButton {
+  flex: 1;
+  margin: 0;
+  padding: 0;
+  border: white solid 1px;
+  color: white;
+  border-radius: 15px;
+}
